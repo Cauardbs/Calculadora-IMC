@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora IMC</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Calculadora IMC</h1>
+    <label id="altura">Altura</label>
+    <input class="altura" type="number" name="altura" id="input-altura" placeholder="Use vírgula: 1,80">
+
+    <label class="" id="peso">Peso</label>
+    <input class="peso" type="number" name="peso" id="input-peso" placeholder="Peso em KG: 70kg">
+
+    <a onclick="calcularIMC()" href="#" class="neon-btn">Calcular</a>
+
+    <div class="imc" id="imc"></div>
+  </div>
+
+
+  <script src="/script.js"></script>
+
+</body>
+
+</html>
