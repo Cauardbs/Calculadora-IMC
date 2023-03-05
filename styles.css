@@ -8,17 +8,20 @@
   margin: 0;
   font-family: 'Righteous';
   box-sizing: border-box;
-
 }
 
 body {
-  min-height: 100vh;
+  max-height: 100vh;
   background-color: #202631;
   color: #14fff1;
   font-family: "Itim", coursive;
-  display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+}
+
+h1 {
+  margin-top: 25px;
 }
 
 .container {
@@ -108,7 +111,30 @@ input {
 
 
 #imc {
-  margin-top: 100px;
+  margin-top: 50px;
   font-size: 40px;
 }
 
+.container-table {
+  margin-top: 20px;
+  width: 600px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border:1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  margin: auto auto;
+  margin-top: 20px;
+}
+
+.table {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 10px;
+  width: 100%;
+}
